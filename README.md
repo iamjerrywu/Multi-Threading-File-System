@@ -1,7 +1,4 @@
 
-# Demo Video
-https://drive.google.com/drive/u/1/folders/1cfa_85c8P9Aj9NVcWMU_j5lu84LTYLwX
-
 # Requirement
 
 1. Clone the base repository 
