@@ -1,0 +1,438 @@
+warning: source README.txt is not a readable file or directory... skipping.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_proj/default/src/main.c:1: warning: the name 'default/main.c' supplied as the argument in the \file statement is not an input file
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_proj/file_system/src/main.c:1: warning: the name 'default/main.c' supplied as the argument in the \file statement is not an input file
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:61: warning: Compound tcb is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_proj/file_system/src/main.c:35: warning: Compound arg_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:27: warning: Compound psp_stack_frame is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:20: warning: Compound stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:39: warning: Compound msp_stack_frame is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:22: warning: Compound rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:42: warning: Compound rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/file_system.h:17: warning: Compound dir_node is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:14: warning: Member CPU_FREQ (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:15: warning: Member MILI_SECOND_PAR (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:17: warning: Member intrinsic (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:18: warning: Member BUSY_LOOP(COND) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:20: warning: Member REG_READ(reg) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:21: warning: Member REG_WRITE(reg, val) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:22: warning: Member REG_SHIFT_MASK(reg_val, shift, mask) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:23: warning: Member SWAP(x, y, tmp) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:24: warning: Member ARRSIZE(arr) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:25: warning: Member REVERSEARR(arr, start, end, tmp) (macro definition) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:40: warning: Member CLEAR(uint32_t ms) (function) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/arm.h:41: warning: Member arm_abs(int32_t val) (function) of file arm.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:16: warning: Member MODE_INPUT (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:17: warning: Member MODE_OUTPUT (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:20: warning: Member OUTPUT_S0S1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:21: warning: Member OUTPUT_H0S1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:22: warning: Member OUTPUT_S0H1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:23: warning: Member OUTPUT_H0H1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:24: warning: Member OUTPUT_D0S1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:25: warning: Member OUTPUT_D0H1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:26: warning: Member OUTPUT_S0D1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:27: warning: Member OUTPUT_H0D1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:30: warning: Member PUPD_NONE (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:31: warning: Member PUPD_PULL_DOWN (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:32: warning: Member PUPD_PULL_UP (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:35: warning: Member GPIO_PORT_0 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:36: warning: Member GPIO_PORT_1 (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:39: warning: Member GPIO_PIN_CNF_DIR_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:40: warning: Member GPIO_PIN_CNF_INPUT_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:41: warning: Member GPIO_PIN_CNF_PULL_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:42: warning: Member GPIO_PIN_CNF_DRIVE_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:45: warning: Member GPIO_P0_BASE (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:46: warning: Member GPIO_P1_BASE (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:47: warning: Member GPIO_OUT_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:48: warning: Member GPIO_OUTCLR_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:49: warning: Member GPIO_IN_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:50: warning: Member GPIO_PIN_CNF_0_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/gpio.h:51: warning: Member GPIO_DIRSET_OFFSET (macro definition) of file gpio.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/mpu.h:21: warning: Member enable_mpu(void) (function) of file mpu.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/mpu.h:22: warning: Member initialize_mpu() (function) of file mpu.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/mpu.h:23: warning: Member disable_mpu() (function) of file mpu.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/mpu.h:24: warning: Member enable_memory_fault(void) (function) of file mpu.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:117: warning: argument 'exec_never' of command @param is not found in the argument list of mm_region_enable(uint32_t region_number, void *base_address, uint8_t size_log2, int execute, int user_write_access)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/mpu.h:20: warning: The following parameter of mm_region_enable(uint32_t region_number, void *base_address, uint8_t size_log2, int execute, int user_write_access) is not documented:
+  parameter 'execute'
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:15: warning: Member RTT_PRINTK_BUFFER_SIZE (macro definition) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:17: warning: Member FORMAT_LEFT_JUSTIFY (macro definition) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:18: warning: Member FORMAT_PAD_ZERO (macro definition) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:19: warning: Member FORMAT_PRINT_SIGN (macro definition) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:20: warning: Member FORMAT_ALTERNATE (macro definition) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:30: warning: Member rtt_printk(uint32_t buffer_index, const char *s_fmt,...) (function) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:31: warning: Member rtt_vprintk(uint32_t buffer_index, const char *s_fmt, va_list *p_params) (function) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:32: warning: Member printk(const char *s_fmt,...) (function) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:33: warning: Member printk_no_delay(const char *s_fmt,...) (function) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:34: warning: Member printk_int(int32_t val) (function) of file printk.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/reset.h:13: warning: Member enable_reset() (function) of file reset.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:16: warning: Member RTT_MAX_UP_BUFFERS (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:17: warning: Member RTT_MAX_DOWN_BUFFERS (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:18: warning: Member BUFFER_SIZE_UP (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:19: warning: Member BUFFER_SIZE_DOWN (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:21: warning: Member MIN(a, b) (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:22: warning: Member MAX(a, b) (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:24: warning: Member NULL (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:27: warning: Member RTT__DMB() (macro definition) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:62: warning: Member rtt_init() (function) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:73: warning: Member rtt_read_test() (function) of file rtt.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall.h:13: warning: Member HEAP_SIZE (macro definition) of file syscall.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:17: warning: Member ROUNDROBIN (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:19: warning: Member USER_THREAD_STACK_SIZE (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:20: warning: Member KERNAL_THREAD_STACK_SIZE (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:21: warning: Member RVR_MAX_VALUE (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:22: warning: Member MAIN_THREAD_ID (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:23: warning: Member IDLE_THREAD_ID (macro definition) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:1: warning: Member tcb_e (typedef) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:53: warning: Member tcb_status (enumeration) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:84: warning: Member reset_tcb(tcb_t *tcb) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:140: warning: Member init_tcb(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:142: warning: Member find_available_thread(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:143: warning: Member udpate_thread_time(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:144: warning: Member schedule_next_thread(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:145: warning: Member round_robin_scheduler(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:146: warning: Member RMS_scheduler(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:147: warning: Member default_idle_thread(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:148: warning: Member init_mpu(tcb_t *cur, tcb_t *next) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:149: warning: Member sys_init_file_system(void) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:150: warning: Member sys_create_path(char *path, int is_file) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:151: warning: Member sys_write_file(char *path, char *data) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:152: warning: Member sys_read_file(char *path) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:153: warning: Member sys_copy_path(char *path1, char *path2) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:154: warning: Member sys_delete_path(char *path) (function) of file syscall_thread.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:86: warning: argument 'stack_size' of command @param is not found in the argument list of sys_thread_init(uint32_t max_threads, uint32_t stack_sizes, void *idle_fn, mpu_mode mem_protect, uint32_t max_mutexes)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:97: warning: The following parameter of sys_thread_init(uint32_t max_threads, uint32_t stack_sizes, void *idle_fn, mpu_mode mem_protect, uint32_t max_mutexes) is not documented:
+  parameter 'stack_sizes'
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:15: warning: Member SYST_CSR (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:16: warning: Member SYST_RVR (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:17: warning: Member SYST_CVR (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:18: warning: Member SYST_CALIB (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:20: warning: Member TIMER_0 (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:21: warning: Member TASKS_START_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:22: warning: Member TASKS_STOP_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:23: warning: Member MODE_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:24: warning: Member PRESCALER_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:25: warning: Member INTENSET_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:26: warning: Member INTENCLR_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:27: warning: Member BITMODE_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:28: warning: Member TASKS_CLEAR_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:29: warning: Member CC_0_OFFSET (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:30: warning: Member EVENT_COMPARE (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:32: warning: Member NVIC_ISER0 (macro definition) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:34: warning: Member systick_start(int frequency) (function) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/timer.h:36: warning: Member systick_stop() (function) of file timer.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/arm.c:96: warning: Member delay(void) (function) of file arm.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/arm.c:102: warning: Member CLEAR(uint32_t ms) (function) of file arm.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/arm.c:107: warning: Member arm_abs(int32_t val) (function) of file arm.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:56: warning: Member MPU_CTRL_ENABLE_BG (macro definition) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:57: warning: Member MPU_CTRL_ENABLE (macro definition) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:16: warning: Member enter_user_mode() (function) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:59: warning: Member kernel_main() (function) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:17: warning: Member __svc_stub_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:18: warning: Member __user_rodata_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:19: warning: Member __user_data_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:20: warning: Member __bss_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:21: warning: Member __heap_base (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:22: warning: Member __psp_stack_limit (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:24: warning: Member __isr_vector_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:25: warning: Member __isr_vector_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:26: warning: Member __kernel_text_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:27: warning: Member __kernel_text_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:29: warning: Member __svc_stub_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:30: warning: Member __user_text_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:31: warning: Member __user_text_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:33: warning: Member __kernel_bss_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:34: warning: Member __kernel_bss_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:35: warning: Member __user_bss_start (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/kernel.c:36: warning: Member __user_bss_end (variable) of file kernel.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:29: warning: Member MPU_CTRL_ENABLE (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:35: warning: Member MPU_RNR_REGION_MAX (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:41: warning: Member MPU_RASR_SIZE (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:42: warning: Member MPU_RASR_ENABLE (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:43: warning: Member MPU_RASR_USER_RO (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:44: warning: Member MPU_RASR_USER_RW (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:45: warning: Member MPU_RASR_USER_NO (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:69: warning: Member SCB_SHCSR (macro definition) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:76: warning: Member hardfault_handler(void) (function) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:81: warning: Member mm_c_handler(void *psp) (function) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:179: warning: Member enable_mpu() (function) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:184: warning: Member disable_mpu() (function) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:71: warning: Member thread_kill (variable) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:72: warning: Member tcbs[16] (variable) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:73: warning: Member cur_thread (variable) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:74: warning: Member thread_stack_size (variable) of file mpu.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:117: warning: argument 'exec_never' of command @param is not found in the argument list of mm_region_enable(uint32_t region_number, void *base_address, uint8_t size_log2, int execute, int user_write_access)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/mpu.c:127: warning: The following parameter of mm_region_enable(uint32_t region_number, void *base_address, uint8_t size_log2, int execute, int user_write_access) is not documented:
+  parameter 'execute'
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/reset.c:11: warning: Member enable_reset() (function) of file reset.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall.c:17: warning: Member __heap_base (variable) of file syscall.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall.c:18: warning: Member stdin (variable) of file syscall.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall.c:19: warning: Member stdout (variable) of file syscall.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall.c:22: warning: Member used_heap_size (variable) of file syscall.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:21: warning: Member USER_THREAD_STACK_SIZE (macro definition) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:22: warning: Member KERNAL_THREAD_STACK_SIZE (macro definition) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:25: warning: Member thread_kill() (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:75: warning: Member systick_c_handler() (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:87: warning: Member pendsv_c_handler(void *msp) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:438: warning: Member init_tcb(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:444: warning: Member init_mpu(tcb_t *cur, tcb_t *next) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:458: warning: Member reset_tcb(tcb_t *tcb) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:473: warning: Member udpate_thread_time(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:493: warning: Member round_robin_scheduler(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:501: warning: Member RMS_scheduler(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:544: warning: Member default_idle_thread(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:551: warning: Member sys_create_path(char *path, int is_file) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:556: warning: Member sys_write_file(char *path, char *data) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:560: warning: Member sys_read_file(char *path) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:564: warning: Member sys_copy_path(char *path1, char *path2) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:568: warning: Member sys_delete_path(char *path) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:572: warning: Member sys_init_file_system(void) (function) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:24: warning: Member __psp_stack_base (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:34: warning: Member __thread_k_stacks_limit (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:35: warning: Member __thread_u_stacks_base (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:35: warning: Member __thread_k_stacks_base (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:50: warning: Member cur_thread (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:52: warning: Member allowed_threads_num (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:54: warning: Member created_threads_num (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:55: warning: Member thread_stack_size (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:56: warning: Member tcbs[16] (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:57: warning: Member ub_value (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:60: warning: Member tick (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:61: warning: Member round_robin_idx (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:62: warning: Member switch_main (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:63: warning: Member memory_protec (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:65: warning: Member mutexes[32] (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:66: warning: Member allowed_mutexes_num (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:67: warning: Member created_mutexes_num (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:68: warning: Member waiting_mutex_id (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:69: warning: Member change_prio (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:71: warning: Member mutex_prios[20] (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:72: warning: Member max_mutex_priority (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:73: warning: Member max_mutex_ptr (variable) of file syscall_thread.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:86: warning: argument 'stack_size' of command @param is not found in the argument list of sys_thread_init(uint32_t max_threads, uint32_t stack_sizes, void *idle_fn, mpu_mode mem_protect, uint32_t max_mutexes)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/syscall_thread.c:140: warning: The following parameter of sys_thread_init(uint32_t max_threads, uint32_t stack_sizes, void *idle_fn, mpu_mode mem_protect, uint32_t max_mutexes) is not documented:
+  parameter 'stack_sizes'
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/timer.c:18: warning: Member systick_start(int frequency) (function) of file timer.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/timer.c:27: warning: Member systick_stop() (function) of file timer.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:16: warning: Member UNUSED (macro definition) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:17: warning: Member intrinsic (macro definition) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:19: warning: Member RET_GOOD (macro definition) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:20: warning: Member RET_FAIL (macro definition) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:21: warning: Member RET_0642 (macro definition) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:23: warning: Member mpu_mode (enumeration) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:195: warning: Member print_num_status_cnt(int thread_num, int cnt) (function) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:196: warning: Member print_status(char *thread_name) (function) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:197: warning: Member print_status_prio(char *thread_name) (function) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:198: warning: Member print_status_cnt(char *thread_name, int cnt) (function) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:199: warning: Member print_status_prio_cnt(char *thread_name, int cnt) (function) of file lib642.h is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:186: warning: argument 'thread_name' of command @param is not found in the argument list of print_num_status(int thread_num)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:186: warning: argument 'cnt' of command @param is not found in the argument list of print_num_status(int thread_num)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:69: warning: argument 'freq' of command @param is not found in the argument list of scheduler_start(uint32_t frequency)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:81: warning: The following parameter of scheduler_start(uint32_t frequency) is not documented:
+  parameter 'frequency'
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/src/lib642.c:32: warning: Member print_num_status_cnt(int thread_num, int cnt) (function) of file lib642.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/src/lib642.c:36: warning: Member print_status(char *thread_name) (function) of file lib642.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/src/lib642.c:40: warning: Member print_status_cnt(char *thread_name, int cnt) (function) of file lib642.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/src/lib642.c:44: warning: Member print_status_prio(char *thread_name) (function) of file lib642.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/src/lib642.c:48: warning: Member print_status_prio_cnt(char *thread_name, int cnt) (function) of file lib642.c is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:186: warning: argument 'thread_name' of command @param is not found in the argument list of print_num_status(int thread_num)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:186: warning: argument 'cnt' of command @param is not found in the argument list of print_num_status(int thread_num)
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_proj/file_system/src/main.c:36: warning: Member mutex_0 (variable) of class arg_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_proj/file_system/src/main.c:37: warning: Member done (variable) of class arg_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/file_system.h:18: warning: Member children[5] (variable) of class dir_node is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/file_system.h:19: warning: Member dir[50] (variable) of class dir_node is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/file_system.h:20: warning: Member is_file (variable) of class dir_node is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/file_system.h:21: warning: Member data_buffer[50] (variable) of class dir_node is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_mutex.h:21: warning: Member locked_by (variable) of class kmutex_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_mutex.h:22: warning: Member prio_ceil (variable) of class kmutex_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:40: warning: Member psp (variable) of class msp_stack_frame is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/user_common/include/lib642.h:114: warning: Member unused (variable) of class mutex_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:28: warning: Member r0 (variable) of class psp_stack_frame is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:43: warning: Member name (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:44: warning: Member p_buffer (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:45: warning: Member buffer_size (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:46: warning: Member pos_wr (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:47: warning: Member pos_rd (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:48: warning: Member flags (variable) of class rtt_buffer_down_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:34: warning: Member name (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:35: warning: Member p_buffer (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:36: warning: Member buffer_size (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:37: warning: Member pos_wr (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:38: warning: Member pos_rd (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:39: warning: Member flags (variable) of class rtt_buffer_up_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:55: warning: Member id[16] (variable) of class rtt_control_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:56: warning: Member num_up_buffers (variable) of class rtt_control_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:57: warning: Member num_down_buffers (variable) of class rtt_control_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:58: warning: Member up_buffers[RTT_MAX_UP_BUFFERS] (variable) of class rtt_control_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/rtt.h:59: warning: Member down_buffers[RTT_MAX_DOWN_BUFFERS] (variable) of class rtt_control_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:23: warning: Member p_buffer (variable) of class rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:24: warning: Member buffer_size (variable) of class rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:25: warning: Member count (variable) of class rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:26: warning: Member return_value (variable) of class rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/printk.h:27: warning: Member buffer_index (variable) of class rtt_printk_desc_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:21: warning: Member r0 (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:22: warning: Member r1 (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:23: warning: Member r2 (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:24: warning: Member r3 (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:25: warning: Member r12 (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:26: warning: Member lr (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:27: warning: Member pc (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:28: warning: Member xPSR (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/src/svc_handler.c:29: warning: Member fifth_par (variable) of class stack_frame_t is not documented.
+/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/kernel/include/syscall_thread.h:62: warning: Member status (variable) of class tcb is not documented.
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_917e382b2acb853f1ccc58b2793ae86b_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_917e382b2acb853f1ccc58b2793ae86b_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__handler_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__handler_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/kernel_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/kernel_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/graph_legend.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/graph_legend.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_a231ebf3b6bc37c6b85003747a0a9fc8_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_a231ebf3b6bc37c6b85003747a0a9fc8_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_b9dd19cd82c56d7fb5b43583ac9410a5_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_b9dd19cd82c56d7fb5b43583ac9410a5_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_dc43877d82dd332f9fb2071fcca799d6_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_dc43877d82dd332f9fb2071fcca799d6_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_ce8d0bdd505a18234edcaf1fa397eafb_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_ce8d0bdd505a18234edcaf1fa397eafb_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3dd30a497388ee684638f120a124721c_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3dd30a497388ee684638f120a124721c_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3a5750680ef3b28b662cb739d8664c22_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3a5750680ef3b28b662cb739d8664c22_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_82558e73ebe6a51873afcc9f65d7e37a_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_82558e73ebe6a51873afcc9f65d7e37a_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__num_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__num_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structrtt__control__t__coll__graph.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structrtt__control__t__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structarg__t__coll__graph.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structarg__t__coll__graph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_25b0e2df1c747750e97ee7c4eec34e4c_dep.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_25b0e2df1c747750e97ee7c4eec34e4c_dep.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8h__dep__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8c__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8c__incl.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__dep__incl.dot" -Tpng -o "/home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__dep__incl.png"'
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/printk_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/rtt_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__num_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/arm_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/gpio_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/kernel_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/mpu_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/reset_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/svc__handler_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/syscall__thread_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/timer_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/lib642_8c__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structarg__t__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/structrtt__control__t__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_ce8d0bdd505a18234edcaf1fa397eafb_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_b9dd19cd82c56d7fb5b43583ac9410a5_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_dc43877d82dd332f9fb2071fcca799d6_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_a231ebf3b6bc37c6b85003747a0a9fc8_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_25b0e2df1c747750e97ee7c4eec34e4c_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_82558e73ebe6a51873afcc9f65d7e37a_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3dd30a497388ee684638f120a124721c_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_3a5750680ef3b28b662cb739d8664c22_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/jerrywu/Desktop/14642_embedded_system/Lab5/f22-lab5-nerdy/doxygen_docs/dir_917e382b2acb853f1ccc58b2793ae86b_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
